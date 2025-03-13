@@ -10,11 +10,10 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1f));
-    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.grid {
+.inner-container {
     display: flex;
     flex-flow: column;
     border: 1px solid black;
@@ -22,18 +21,7 @@ body {
     padding: 2rem;
 }
 
-grid img {
+/* .inner-container > img {
     order: -1;
     align-self: center;
-}
-
-
-
-
-
-
-
-
-
-
-
+} */
