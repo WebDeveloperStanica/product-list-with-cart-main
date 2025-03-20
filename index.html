@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Product list with cart</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -17,85 +19,87 @@
 
   <div id="waffle" class="waffle grid">
     <img src="./assets/images/image-waffle-thumbnail.jpg">
-    <h2>Waffle with Berries</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Waffle</p>
-    <p>6.50</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Waffle with Berries</h3>
+    <p class="price">6.50</p>
+    
   </div>
  
   <div id="cremeBrulee" class="cremeBrulee grid">
     <img src="./assets/images/image-creme-brulee-thumbnail.jpg">
-    <h2>Vanilla Bean Crème Brûlée</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Crème Brûlée</p>
-    <p>7.00</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Vanilla Bean Crème Brûlée</h3>
+    <p class="price">7.00</p>
   </div>
 
   <div id="macaron" class="macaron grid">
     <img src="./assets/images/image-macaron-thumbnail.jpg">
-    <h2>Macaron Mix of Five</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Macaron</p>
-    <p>8.00</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Macaron Mix of Five</h3>
+    <p class="price">8.00</p>
   </div>
   
   <div id="tiramisu" class="tiramisu grid">
     <img src="./assets/images/image-tiramisu-thumbnail.jpg">
-    <h2>Classic Tiramisu</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Tiramisu</p>
-    <p>5.50</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Classic Tiramisu</h3>
+    <p class="price">5.50</p>
   </div>
   
   <div id="Baklava" class="Baklava grid">
     <img src="./assets/images/image-baklava-thumbnail.jpg">
-    <h2>Pistachio Baklava</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Baklava</p>
-    <p>4.00</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Pistachio Baklava</h3>
+    <p class="price">4.00</p>
   </div>
 
   <div id="pie" class="pie grid">
     <img src="./assets/images/image-meringue-thumbnail.jpg">
-    <h2>Lemon Meringue Pie</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Pie</p>
-    <p>5.00</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Lemon Meringue Pie</h3>
+    <p class="price">5.00</p>
   </div>
 
   <div id="cake" class="cake grid">
     <img src="./assets/images/image-cake-thumbnail.jpg">
-    <h2>Red Velvet Cake</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Cake</p>
-    <p>4.50</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Red Velvet Cake</h3>
+    <p class="price">4.50</p>
   </div>
 
   <div id="brownie" class="brownie grid">
     <img src="./assets/images/image-brownie-thumbnail.jpg">
-    <h2>Salted Caramel Brownie</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Brownie</p>
-    <p>4.50</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Salted Caramel Brownie</h3>
+    <p class="price">4.50</p>
   </div>
 
   <div id="cotta" class="cotta grid">
     <img src="./assets/images/image-panna-cotta-thumbnail.jpg">
-    <h2>Vanilla Panna Cotta</h2>
+    <button class="add"><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
     <p>Panna Cotta</p>
-    <p>6.50</p>
-    <button><img src="assets/images/icon-add-to-cart.svg">Add to Cart</button>
+    <h3>Vanilla Panna Cotta</h3>
+    <p class="price">6.50</p>
   </div>
 </div>  
+<div class="cart"> 
+  <a href="#"><h2>Your Cart (0)(<!-- Quantity -->)</h2></a> 
+  <p>Your added items will appear here</p>
+</div>
 </div>
 
 
   
 
- <div class="cart"> 
-  <a href="#"><h2>Your Cart (0)(<!-- Quantity -->)</h2></a> 
-  <p>Your added items will appear here</p>
-</div>
+
  
 
   <div class="attribution">
