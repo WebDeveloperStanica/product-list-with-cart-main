@@ -43,6 +43,7 @@ body {
     /* padding: 8px; */
     margin: 8px;
     font-weight: 600;
+    position: relative;
 }
 
 .grid img{
@@ -60,6 +61,8 @@ button:hover {
     background: hsl(14, 86%, 42%);
     color: hsl(20, 50%, 98%);
     margin: auto;
+    text-align: center;
+    padding: 5px;
 }
 
 .add img{
@@ -77,16 +80,27 @@ button:hover {
 
 }
 
-h3 {
+.add {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+
+h4 {
    color: hsl(14, 65%, 9%);
 }
 
 p {
     color: hsl(12, 20%, 44%);
+    margin-top: 20px;
+    font-size: small;
 }
 
 .price {
     color: hsl(14, 86%, 42%);
+    margin-bottom: 16px;
+    margin-top: 5px;
 }
 
 .cart {
